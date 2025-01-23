@@ -1,5 +1,7 @@
 provider "aws" {
   region = "us-east-2"
+  profile = "minal"
+
 }
 
 resource "aws_instance" "dev" {
